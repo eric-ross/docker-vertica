@@ -1,8 +1,8 @@
-# Docker Image for Vertica
+# Docker Image for Vertica 9
 
 The image is available in Docker registry at https://registry.hub.docker.com/u/sumitchawla/vertica/
 
-Base OS is Ubuntu 14.04.
+Base OS is Debian 9.2.
 
 ## Usage:
 You can either pull the image from Docker Registry using following command:
@@ -11,7 +11,7 @@ You can either pull the image from Docker Registry using following command:
 docker pull sumitchawla/vertica
 ```
 
-Or, build your own image using following command. Download the Vertica DEB package from https://my.vertica.com and put it in this folder as "vertica.deb".
+Or, build your own image using following command. Download the Vertica DEB package from https://my.vertica.com and put it in this folder as "vertica9.deb".
 Then run:
 ```bash
 docker build -t sumitchawla/vertica .
